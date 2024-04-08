@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Seatwork #1</title>
+        <style>
+            .main {
+                background-color: #FFFFFF;
+                width: 500px;
+                padding: 15px;
+                box-shadow: 0 30px 40px rgba(144,142,158,255);
+                border: 2px solid white;
+                border-radius: 10px;
+                font-family: 'Outfit', sans-serif;
+                }
+
+            body {
+                background-color: #FFFFFF;
+                text-align: center;
+                padding-top: 50px;
+                font-optical-sizing: auto;
+                font-style: normal;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                
+            }
+
+            img {
+                width: 300px;
+                height: 225px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <img id="icon" src="https://assets.materialup.com/uploads/bcf6dd06-7117-424f-9a6e-4bb795c8fb4d/preview.png">
+            <br>
+            <br>
+            <h3 id="text"></h3>
+            <script>
+                document.getElementById("text").innerHTML="Click the buttons below to convert ₱100 to other currencies"
+            </script>
+            <br>
+            <a href="page1.html" class="btn btn-success btn-lg">¥ - Japanese Yen</a>
+            <a href="page2.html" class="btn btn-warning btn-lg">S$ - Singaporean Dollar</a>
+        </div>
+    </body>
+</html>
